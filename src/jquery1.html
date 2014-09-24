@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jquery - 1</title>
+  <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+  <div class="main">
+    <label>Ingrese una frase: </label><input type="text" ng-model="value1" id="input1">
+    <label>Frase: </label><span id="preview"></span>
+  </div>
+</body>
+</html>
+<script>
+  $(function() {
+    $("#input1").keyup(function() {
+        $("#preview").text($(this).val());
+    });
+  });
+</script>

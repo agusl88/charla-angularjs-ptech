@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular - 2</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+</head>
+<body>
+  <div class="main" ng-app>
+    <label>Una jarra de cafe rinde: </label> 5 tazas<br>
+    <label>Cuantas jarras se prepararon: </label><input type="text" ng-model="jarras">
+    <p ng-show="jarras">Dani tomo {{jarras*5}} tazas de cafe</p>
+  </div>
+</body>
+</html>

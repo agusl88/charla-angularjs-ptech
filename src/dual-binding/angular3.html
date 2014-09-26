@@ -33,7 +33,7 @@
           <tbody>
             <tr ng-repeat="person in persons">
               <td>{{person.id}}</td>
-              <td>{{person.name}}</td>
+              <td>{{person.name | uppercase}}</td>
               <td><a href="#" class="btn btn-small btn-warning" ng-click="delete(person.id)">Borrar</a></td>
             </tr>
           </tbody>

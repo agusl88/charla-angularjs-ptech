@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Angular - 3</title>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <script type="text/javascript" src="angular7.js"></script>
+</head>
+<body>
+  <div class="container" ng-app="myApp" ng-controller="TestController">
+    <button type="submit" class="btn btn-primary" ng-click="get()">Get customers Data</button>
+    <div class="row">
+      <div class="col-xs-12">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>#</th>
+              <th>Customer</th>
+              <th>Ammount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="customer in customers">
+              <td>{{customer.id}}</td>
+              <td>{{customer.name}}</td>
+              <td>{{customer.total | currency}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<form class="form-horizontal" role="form">
+  <div class="form-group">
+    <label class="control-label col-xs-4">Ingrese nombre persona: </label>
+    <div class="col-xs-4">
+      <input type="text" class="form-control" ng-model="newItem"> 
+    </div> 
+    <div class="col-xs-2">
+      <button class="btn btn-primary" ng-click="add(newItem)">Add</button>  
+    </div>
+  </div>
+</form>
+<div class="row">
+  <div class="col-xs-12">
+    <table class="table table-striped">
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>Nombre</th>
+          <th>Action</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="item in data">
+          <td>{{item.id}}</td>
+          <td>{{item.name}}</td>
+          <td><a href="#" class="btn btn-small btn-warning" ng-click="delete(item.id)">Borrar</a></td>
+        </tr>
+      </tbody>
+    </table> 
+  </div>
+</div>

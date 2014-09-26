@@ -3,7 +3,8 @@ CharlaAngularPtech
 
 Material para la charla de Angular.JS en PatagonianTech
 
-Para poder probar algunos ejemplos, van a necesitar un webserver, la forma mas rapida es abrir un shell, ir a la carpeta donde esta este repositorio y ejecutar el siguiente comando: python -m SimpleHTTPServer
+Para poder probar algunos ejemplos, van a necesitar un webserver, la forma mas rapida es abrir un shell, ir a la carpeta donde clonaron el repositorio y ejecutar el siguiente comando: python -m SimpleHTTPServer
+Esto les abre un webserver en el puerto 8000
 
 Referencias:
 

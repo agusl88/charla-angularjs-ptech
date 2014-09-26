@@ -7,7 +7,7 @@ Para poder probar algunos ejemplos, van a necesitar un webserver, la forma mas r
 
 Referencias:
 
-https://docs.angularjs.org/tutorial
-http://scotch.io/tutorials/javascript/angularjs-form-validation
-http://viralpatel.net/blogs/angularjs-service-factory-tutorial/
-http://weblogs.asp.net/dwahlin/angularjs-in-20ish-minutes-talk-at-ng-conf
+.https://docs.angularjs.org/tutorial
+.http://scotch.io/tutorials/javascript/angularjs-form-validation
+.http://viralpatel.net/blogs/angularjs-service-factory-tutorial/
+.http://weblogs.asp.net/dwahlin/angularjs-in-20ish-minutes-talk-at-ng-conf
